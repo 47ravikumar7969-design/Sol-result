@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <div>
+                <div class="img"></div>
+            </div>
+            <div class="heading-text">
+                <h1>University of Delhi</h1>
+                <p>Results (Semester/Annual Examination)</p>
+            </div>
+        </div>
+        <nav>
+            <div class="navbar">
+                <img src="img(.png" alt="">
+                <a href="">Home</a>
+                <img src="img().png" alt="">
+                <a href="">Statement of Marks</a>
+                <img src="img().png" alt="">
+                <a href="">List of Declared Result</a>
+                <img src="img).png" alt="">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="main-itm">
+            <h2>Semester Examination (May-June 2026)</h2>
+            <p style="color: maroon;">Statement of Marks/Score Card</p>
+            <hr>
+            <p style="color: #c01294">Students are advised to save their Statement of Marks/Score Card for future purpose.</p>
+            <p style="color: #c01294;">This link will not be available later.</p>
+            <hr>
+            <p style="color: rgb(0, 107, 0);">Absent (AB), Or Result Awaited (RA) [Please contact the Principal of your respective college.]</p>
+            <form action="showindex.html" onsubmit="return validateDetails()">
+                <div class="left">
+                    <p>Please Select College Name</p>
+                    <p id="star">*</p>
+                </div>
+                <div class="right">
+                    <select id="selecter">
+                        <option value="">&lt;-----Select-----&gt;</option>
+                        <option value="acharya_narendra_dev_college">Acharya Narendra Dev College</option>
+                        <option value="aditi_mahavidyalaya">Aditi Mahavidyalaya</option>
+                        <option value="ahilya_bai_college_of_nursing">Ahilya Bai College of Nursing</option>
+                        <option value="amar_jyoti_institute_of_physiotherapy">Amar Jyoti Institute of Physiotherapy</option>
+                        <option value="aryabhatta_college">Aryabhatta College</option>
+                        <option value="atma_ram_sanatan_dharma_college">Atma Ram Sanatan Dharma College</option>
+                        <option value="ayurvedic_unani_tibia_college">Ayurvedic & Unani Tibia College</option>
+                        <option value="bhagini_nivedita_college">Bhagini Nivedita College</option>
+                        <option value="bharati_college">Bharati College</option>
+                        <option value="bhaskaracharya_college_of_applied_sciences">Bhaskaracharya College of Applied Sciences</option>
+                        <option value="bhim_rao_ambedkar_college">Bhim Rao Ambedkar College</option>
+                        <option value="chacha_nehru_bal_chikitsalaya">Chacha Nehru Bal Chikitsalaya</option>
+                        <option value="college_of_art">College of Art</option>
+                        <option value="college_of_nursing_at_army_hospital_rr">College of Nursing at Army Hospital (R&R)</option>
+                        <option value="college_of_vocational_studies">College of Vocational Studies</option>
+                        <option value="daulat_ram_college">Daulat Ram College</option>
+                        <option value="deen_dayal_upadhyaya_college">Deen Dayal Upadhyaya College</option>
+                        <option value="delhi_college_of_arts_and_commerce">Delhi College of Arts & Commerce</option>
+                        <option value="delhi_institute_of_pharmaceutical_sciences_and_research">Delhi Institute of Pharmaceutical Sciences and Research</option>
+                        <option value="deshbandhu_college_morning">Deshbandhu College (Morning)</option>
+                        <option value="durga_bai_deshmukh_college_special_edu_vi">Durga Bai Deshmukh College of Special Edu.(VI)</option>
+                        <option value="dyal_singh_college">Dyal Singh College</option>
+                        <option value="dyal_singh_college_evening">Dyal Singh College (Evening)</option>
+                        <option value="florence_nightingale_college_of_nursing">Florence Nightingale College of Nursing</option>
+                        <option value="gargi_college">Gargi College</option>
+                        <option value="hans_raj_college">Hans Raj College</option>
+                        <option value="hindu_college">Hindu College</option>
+                        <option value="holy_family_college_of_nursing">Holy Family College of Nursing</option>
+                        <option value="indira_gandhi_institute_of_physical_education_sports_sciences">Indira Gandhi Institute of Physical Education & Sports Sciences</option>
+                        <option value="indraprastha_college_for_women">Indraprastha College for Women</option>
+                        <option value="institute_of_home_economics">Institute of Home Economics</option>
+                        <option value="janki_devi_memorial_college">Janki Devi Memorial College</option>
+                        <option value="jesus_mary_college">Jesus & Mary College</option>
+                        <option value="kalindi_college_for_women">Kalindi College for Women</option>
+                        <option value="kamla_nehru_college_for_women">Kamla Nehru College for Women</option>
+                        <option value="keshav_mahavidyalaya">Keshav Mahavidyalaya</option>
+                        <option value="kirori_mal_college">Kirori Mal College</option>
+                        <option value="lady_hardinge_medical_college">Lady Hardinge Medical College</option>
+                        <option value="lady_irwin_college">Lady Irwin College</option>
+                        <option value="lady_shri_ram_college_for_women">Lady Shri Ram College for Women</option>
+                        <option value="lakshmi_bai_college_for_women">Lakshmi Bai College for Women</option>
+                        <option value="maharaja_agarsen_college">Maharaja Agarsen College</option>
+                        <option value="maharshi_valmiki_college_of_education">Maharshi Valmiki College of Education</option>
+                        <option value="maitreyi_college_for_women">Maitreyi College for Women</option>
+                        <option value="mata_sundri_college_for_women">Mata Sundri College for Women</option>
+                        <option value="maulana_azad_institute_of_dental_sciences">Maulana Azad Institute of Dental Sciences</option>
+                        <option value="maulana_azad_medical_college">Maulana Azad Medical College</option>
+                        <option value="miranda_house">Miranda House</option>
+                        <option value="moti_lal_nehru_college">Moti Lal Nehru College</option>
+                        <option value="moti_lal_nehru_college_evening">Moti Lal Nehru College (Evening)</option>
+                        <option value="nehru_homeopathic_medical_college_hospital">Nehru Homeopathic Medical College & Hospital</option>
+                        <option value="netaji_subhash_institute_of_technology">Netaji Subhash Institute of Technology</option>
+                        <option value="pgdav_college">P.G.D.A.V. College</option>
+                        <option value="pgdav_college_evening">P.G.D.A.V. College (Evening)</option>
+                        <option value="pt_deendayal_upadhyaya_institute_physically_handicapped">Pt. Deendayal Upadhyaya Institute of Physically Handicapped</option>
+                        <option value="rajdhani_college">Rajdhani College</option>
+                        <option value="rajkumari_amrit_kaur_college_of_nursing">Rajkumari Amrit Kaur College of Nursing</option>
+                        <option value="ram_lal_anand_college">Ram Lal Anand College</option>
+                        <option value="ramanujan_college">Ramanujan College</option>
+                        <option value="ramjas_college">Ramjas College</option>
+                        <option value="satyawati_college">Satyawati College</option>
+                        <option value="satyawati_college_evening">Satyawati College (Evening)</option>
+                        <option value="school_of_open_learning">School of Open Learning</option>
+                        <option value="school_of_open_learning_east_female">School of Open Learning (East Female)</option>
+                        <option value="school_of_open_learning_east_male">School of Open Learning (East Male)</option>
+                        <option value="school_of_open_learning_north_female">School of Open Learning (North Female)</option>
+                        <option value="school_of_open_learning_north_male">School of Open Learning (North Male)</option>
+                        <option value="school_of_open_learning_south_female">School of Open Learning (South Female)</option>
+                        <option value="school_of_open_learning_south_male">School of Open Learning (South Male)</option>
+                        <option value="school_of_open_learning_west_female">School of Open Learning (West Female)</option>
+                        <option value="school_of_open_learning_west_male">School of Open Learning (West Male)</option>
+                        <option value="school_of_rehabilitation_sciences">School of Rehabilitation Sciences</option>
+                        <option value="shaheed_bhagat_singh_college">Shaheed Bhagat Singh College</option>
+                        <option value="shaheed_bhagat_singh_college_evening">Shaheed Bhagat Singh College (Evening)</option>
+                        <option value="shaheed_rajguru_college_applied_sciences_women">Shaheed Rajguru College of Applied Sciences for Women</option>
+                        <option value="shaheed_sukhdev_college_business_studies">Shaheed Sukhdev College of Business Studies</option>
+                        <option value="shivaji_college">Shivaji College</option>
+                        <option value="shri_ram_college_of_commerce">Shri Ram College of Commerce</option>
+                        <option value="shyam_lal_college">Shyam Lal College</option>
+                        <option value="shyam_lal_college_evening">Shyam Lal College (Evening)</option>
+                        <option value="shyama_prasad_mukherji_college_for_women">Shyama Prasad Mukherji College for Women</option>
+                        <option value="sri_aurobindo_college">Sri Aurobindo College</option>
+                        <option value="sri_aurobindo_college_evening">Sri Aurobindo College (Evening)</option>
+                        <option value="sri_guru_gobind_singh_college_of_commerce">Sri Guru Gobind Singh College of Commerce</option>
+                        <option value="sri_guru_nanak_dev_khalsa_college">Sri Guru Nanak Dev Khalsa College</option>
+                        <option value="sri_guru_tegh_bahadur_khalsa_college">Sri Guru Tegh Bahadur Khalsa College</option>
+                        <option value="sri_venkateswara_college">Sri Venkateswara College</option>
+                        <option value="st_stephens_college">St. Stephen's College</option>
+                        <option value="swami_shraddhanand_college">Swami Shraddhanand College</option>
+                        <option value="university_college_of_medical_sciences">University College of Medical Sciences</option>
+                        <option value="vallabhbhai_patel_chest_institute">Vallabhbhai Patel Chest Institute</option>
+                        <option value="vivekananda_college">Vivekananda College</option>
+                        <option value="zakir_husain_delhi_college">Zakir Husain Delhi College</option>
+                        <option value="zakir_husain_post_graduate_evening_college">Zakir Husain Post Graduate Evening College</option>
+                    </select>
+                </div>
+                <div class="left">
+                    <p>Exam Session</p>
+                    <p id="star">*</p>
+                </div>
+                <div class="right">
+                    <select id="session" disabled>
+                        <option value="">May - June 2026</option>
+                    </select>
+                </div>
+                <div class="left">
+                    <p>Please Fill Exam Roll No.</p>
+                    <p id="star">*</p>
+                </div>
+                <div class="right">
+                    <input type="text" id="roll">
+                </div>
+                <div class="left">
+                    <p>Date of Birth</p>
+                    <p id="star">*</p>
+                </div>
+                <div class="right">
+                    <p id="dob">DD</p>
+                    <select  id="date" class="dob">
+                        <option value="">DD</option>
+                        <option value="1">01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                        <option value="5">05</option>
+                        <option value="6">06</option>
+                        <option value="7">07</option>
+                        <option value="8">08</option>
+                        <option value="9">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <p id="dob">MM</p>
+                    <select id="month" class="dob">
+                        <option value="">MM</option>
+                        <option value="1">01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                        <option value="5">05</option>
+                        <option value="6">06</option>
+                        <option value="7">07</option>
+                        <option value="8">08</option>
+                        <option value="9">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <p id="dob">YYYY</p>
+                    <select id="year" class="dob">
+                        <option value="">YYYY </option>
+                        <option value="2026">2026</option>
+                        <option value="2025">2025</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                        <option value="2009">2009</option>
+                        <option value="2008">2008</option>
+                        <option value="2007">2007</option>
+                        <option value="2006">2006</option>
+                        <option value="2005">2005</option>
+                        <option value="2004">2004</option>
+                        <option value="2003">2003</option>
+                        <option value="2002">2002</option>
+                        <option value="2001">2001</option>
+                        <option value="2000">2000</option>
+                        <option value="1999">1999</option>
+                        <option value="1998">1998</option>
+                        <option value="1997">1997</option>
+                        <option value="1996">1996</option>
+                        <option value="1995">1995</option>
+                        <option value="1994">1994</option>
+                        <option value="1993">1993</option>
+                        <option value="1992">1992</option>
+                        <option value="1991">1991</option>
+                        <option value="1990">1990</option>
+                        <option value="1989">1989</option>
+                        <option value="1988">1988</option>
+                        <option value="1987">1987</option>
+                        <option value="1986">1986</option>
+                        <option value="1985">1985</option>
+                        <option value="1984">1984</option>
+                        <option value="1983">1983</option>
+                        <option value="1982">1982</option>
+                        <option value="1981">1981</option>
+                        <option value="1980">1980</option>
+                        <option value="1979">1979</option>
+                        <option value="1978">1978</option>
+                        <option value="1977">1977</option>
+                        <option value="1976">1976</option>
+                        <option value="1975">1975</option>
+                        <option value="1974">1974</option>
+                        <option value="1973">1973</option>
+                        <option value="1972">1972</option>
+                        <option value="1971">1971</option>
+                        <option value="1970">1970</option>
+                        <option value="1969">1969</option>
+                        <option value="1968">1968</option>
+                        <option value="1967">1967</option>
+                        <option value="1966">1966</option>
+                        <option value="1965">1965</option>
+                        <option value="1964">1964</option>
+                        <option value="1963">1963</option>
+                        <option value="1962">1962</option>
+                        <option value="1961">1961</option>
+                        <option value="1960">1960</option>
+                        <option value="1959">1959</option>
+                        <option value="1958">1958</option>
+                        <option value="1957">1957</option>
+                        <option value="1956">1956</option>
+                        <option value="1955">1955</option>
+                        <option value="1954">1954</option>
+                        <option value="1953">1953</option>
+                        <option value="1952">1952</option>
+                        <option value="1951">1951</option>
+                        <option value="1950">1950</option>
+                        <option value="1949">1949</option>
+                        <option value="1948">1948</option>
+                        <option value="1947">1947</option>
+                        <option value="1946">1946</option>
+                        <option value="1945">1945</option>
+                        <option value="1944">1944</option>
+                        <option value="1943">1943</option>
+                        <option value="1942">1942</option>
+                        <option value="1941">1941</option>
+                        <option value="1940">1940</option>
+                        <option value="1939">1939</option>
+                        <option value="1938">1938</option>
+                        <option value="1937">1937</option>
+                        <option value="1936">1936</option>
+                        <option value="1935">1935</option>
+                        <option value="1934">1934</option>
+                        <option value="1933">1933</option>
+                        <option value="1932">1932</option>
+                        <option value="1931">1931</option>
+                        <option value="1930">1930</option>
+                        <option value="1929">1929</option>
+                        <option value="1928">1928</option>
+                        <option value="1927">1927</option>
+                        <option value="1926">1926</option>
+                        <option value="1925">1925</option>
+                        <option value="1924">1924</option>
+                        <option value="1923">1923</option>
+                        <option value="1922">1922</option>
+                        <option value="1921">1921</option>
+                        <option value="1920">1920</option>
+                        <option value="1919">1919</option>
+                        <option value="1918">1918</option>
+                        <option value="1917">1917</option>
+                        <option value="1916">1916</option>
+                        <option value="1915">1915</option>
+                        <option value="1914">1914</option>
+                        <option value="1913">1913</option>
+                        <option value="1912">1912</option>
+                        <option value="1911">1911</option>
+                        <option value="1910">1910</option>
+                        <option value="1909">1909</option>
+                        <option value="1908">1908</option>
+                        <option value="1907">1907</option>
+                        <option value="1906">1906</option>
+                        <option value="1905">1905</option>
+                        <option value="1904">1904</option>
+                        <option value="1903">1903</option>
+                        <option value="1902">1902</option>
+                        <option value="1901">1901</option>
+                        <option value="1900">1900</option>
+                    </select>
+                </div>
+                <div class="half">
+                    <div class="Captcha">
+                        <div class="Captcha-opt">
+                            <input type="radio" id="imgc" name="Captcha" checked>
+                            <label for="imgc">Image Captcha</label>
+                            <input type="radio" id="audc" name="Captcha">
+                            <label for="audc">Audio Captcha</label>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="Captcha code">
+                        <div>
+                            <p>Image Captcha Code</p>
+                        </div>
+                        <div id="Captcha-code">
+                            <div class="Captcha-img"></div>
+                            <button type="button">Refresh Code</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="left">
+                    <p>Please Type Captcha Code</p>
+                    <p id="star">*</p>
+                </div>
+                <div class="right">
+                    <input type="text" id="Captcha-text" class="Captcha-code">
+                </div>
+
+                <div class="submit">
+                    <input type="submit" id="submit" value="Print Score Card">
+                </div>
+                <p id="error"></p>
+                <div class="info">
+                    <span id="star">*</span>
+                    <span> : Mandatory Fields</span>
+                </div>
+                <input type="reset" value="" class="reset">
+            </form>
+            <hr>
+            <p style="color: #B84018;">[INSTRUCTIONS]</p>
+            <p style="color: rgb(0, 107, 0);" class="main-last">The Students whose result is fall under the category of RA(result awaited)/AB(Absent), may contact to the Principal of the concerned College/Department/Centers within 10 days of declaration of the result.</p>
+            <hr>
+        </div>
+    </main>
+    <footer>
+        <p style="color: #fff;">University of Delhi (Compatible Browser: <span class="Browser"></span> )</p>
+        <p class="footer-last">(For any query related to results, students are advised to contact window no.7 of examination branch North Campus on any working day between 9.00am to 3.00pm.)</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

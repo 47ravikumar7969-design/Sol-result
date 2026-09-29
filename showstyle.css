@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    margin-top: 3vw;
+    text-align: center;
+    font-size: 5vw;
+}
+
+.emoji {
+    text-align: center;
+    font-size: 30vmax;
+}
+
+@media (max-width: 450px) {
+    h1 {
+        margin-top: 25vw;
+        font-size: 7vw;
+    }
+
+    .emoji {
+        font-size: 35vw;
+    }
+}
